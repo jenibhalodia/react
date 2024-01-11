@@ -29,7 +29,7 @@ export default function About(props) {
     border: "1px solid #969292"
 }
   return (
-    <div className="container my-3 " style={myStyle}>
+    <div className="container my-3 " >
       <h1 className="">About Us</h1>
       <div className="accordion" id="accordionExample">
         <div className="accordion-item ">
