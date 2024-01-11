@@ -11,7 +11,7 @@ const toggleStyle=()=>{
   if(myStyle.color==='black'){
     setMyStyle({
       color:'white',
-      backgroundColor:'#0d032f',
+      backgroundColor:'#140147',
       border:'2px solid white'
     })
     setBtntext("Enable Light Mode")
@@ -123,7 +123,7 @@ const toggleStyle=()=>{
           </div>
         </div>
       </div>
-      <div className="container">
+      <div className="container my-2">
         <button type="button" onClick={toggleStyle}  className="btn btn-primary">{btntext}</button>
       </div>
     </div>
