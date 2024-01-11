@@ -21,7 +21,7 @@ function App() {
       })
       setTimeout(() => {
         setAlert(null);
-      }, 1500);
+      }, 2000);
   }
 
   const toggleMode= ()=>{
@@ -35,13 +35,11 @@ function App() {
       document.body.style.backgroundColor='white';
       showAlert("Light mode has been enabled","success");
     }
-   
-
   }
   return (
     <>
     <Router>
-    <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode} key={new Date()} />
+    <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}  />
     <Alert alert={alert}/>
     <div className="container my-3">
     <Switch>
